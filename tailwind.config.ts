@@ -47,6 +47,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        timeline: {
+          grid: "hsl(var(--timeline-grid))",
+          "grid-line": "hsl(var(--timeline-grid-line))",
+          booked: "hsl(var(--booked))",
+          "booked-foreground": "hsl(var(--booked-foreground))",
+          selection: "hsl(var(--selection))",
+          "current-time": "hsl(var(--current-time))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
