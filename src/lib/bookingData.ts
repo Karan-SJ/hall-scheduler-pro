@@ -16,14 +16,14 @@ export interface Booking {
 }
 
 export const HALLS: Hall[] = [
-  { id: "h1", name: "Grand Ballroom", capacity: 200, color: "bg-blue-100 text-blue-700" },
-  { id: "h2", name: "Boardroom A", capacity: 20, color: "bg-emerald-100 text-emerald-700" },
-  { id: "h3", name: "Boardroom B", capacity: 20, color: "bg-amber-100 text-amber-700" },
-  { id: "h4", name: "Innovation Lab", capacity: 40, color: "bg-violet-100 text-violet-700" },
-  { id: "h5", name: "Sky Lounge", capacity: 60, color: "bg-rose-100 text-rose-700" },
-  { id: "h6", name: "Summit Room", capacity: 30, color: "bg-cyan-100 text-cyan-700" },
-  { id: "h7", name: "Training Center", capacity: 80, color: "bg-orange-100 text-orange-700" },
-  { id: "h8", name: "Executive Suite", capacity: 12, color: "bg-indigo-100 text-indigo-700" },
+  { id: "h1", name: "Hall 1", capacity: 200, color: "bg-blue-100 text-blue-700" },
+  { id: "h2", name: "Hall 2", capacity: 20, color: "bg-emerald-100 text-emerald-700" },
+  { id: "h3", name: "Hall 3", capacity: 20, color: "bg-amber-100 text-amber-700" },
+  { id: "h4", name: "Hall 4", capacity: 40, color: "bg-violet-100 text-violet-700" },
+  { id: "h5", name: "Hall 5", capacity: 60, color: "bg-rose-100 text-rose-700" },
+  { id: "h6", name: "Hall 6", capacity: 30, color: "bg-cyan-100 text-cyan-700" },
+  { id: "h7", name: "Hall 7", capacity: 80, color: "bg-orange-100 text-orange-700" },
+  { id: "h8", name: "Hall 8", capacity: 12, color: "bg-indigo-100 text-indigo-700" },
 ];
 
 const today = new Date().toISOString().split("T")[0];
