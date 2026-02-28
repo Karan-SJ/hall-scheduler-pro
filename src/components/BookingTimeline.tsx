@@ -222,7 +222,7 @@ export function BookingTimeline({ selectedDate }: { selectedDate: Date }) {
                 <div className="text-sm font-medium text-foreground leading-tight">
                   {hall.name}
                 </div>
-                <div className="text-xs text-muted-foreground">{hall.capacity} seats</div>
+                {/* capacity hidden */}
               </div>
             </div>
           ))}
